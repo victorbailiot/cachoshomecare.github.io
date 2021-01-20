@@ -1,30 +1,4 @@
 /* ===================================
-    Table of Content
-====================================== */
-
-
-/*  - Fonts
-    - General
-    - Fonts
-    - Social Icon Hover
-    - Header And Navigation
-    - Slider
-    - About
-    - Team
-    - Portfolio
-    - Price
-    - Parallax
-    - Testimonial
-    - Client
-    - Blog
-    - Contact
-    - Map
-    - Footer
-    - Loader
-    - Media Queries   */
-
-
-/* ===================================
     Google font
 ====================================== */
 
@@ -32,6 +6,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+/* ===================================
+    Video CSS
+====================================== */
+.responsive-iframe {
+    visibility: hidden;
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    border: none;
+    z-index: 16;
+}
 
 /* ===================================
     Scrollbar
@@ -390,6 +379,13 @@ ul{
     font-family: 'Grand Hotel', cursive;
     font-size: 72px;
     font-weight: 400;
+    margin-bottom: 50px;
+}
+.heading2{
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
     margin-bottom: 50px;
 }
 .text{
@@ -1005,7 +1001,7 @@ header .user-links li a .badge{
 }
 
 /* ===================================
-           main  Banner css
+        main  Banner css
 ====================================== */
 .main-banner{
     background-color: #202020;
