@@ -10,16 +10,20 @@
 /* ===================================
     Video CSS
 ====================================== */
-.responsive-iframe {
-    visibility: hidden;
+
+.video{
+    text-align: center;
+    overflow: hidden;
+    transition: .8s ease;
+    text-decoration: none;
+}
+.slider-form-video{
     position: absolute;
-    top: 150px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 40%;
-    border: none;
-    z-index: 16;
+    z-index: 11;
+    top: 20%;
+    transform: translateY(50%);
+    left: 0;
+    right: 0;
 }
 
 /* ===================================
@@ -422,6 +426,7 @@ ul{
     font-weight: 700;
     padding: 10px 35px;
     font-size: 14px;
+    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     /*letter-spacing: 0.1em;*/
