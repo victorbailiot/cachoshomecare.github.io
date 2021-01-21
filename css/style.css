@@ -685,8 +685,7 @@ header .user-links li a .badge{
     right: 0;
     top: 0;
     bottom: 0;
-    /*background: rgba(247, 28, 82, 0.6);*/
-    background-image: url("../img/side-menu.jpg");
+    background: rgba(0, 0, 0, 0.6);
     background-size: cover;
     background-position: center;
     z-index: 2032;
