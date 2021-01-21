@@ -6,17 +6,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@media only screen and (max-width: 600px){
+    .main-btn{
+        margin-bottom: 40px;
+    }
+    .slider-form{
+        padding-top: 0px !important;
+    }
+}
 
 /* ===================================
     Video CSS
 ====================================== */
 
 .video{
-    text-align: center;
+    width: 107% !important;
+    text-align: center !important;
     overflow: hidden;
     transition: .8s ease;
     text-decoration: none;
 }
+
 .slider-form-video{
     position: absolute;
     z-index: 11;
@@ -440,8 +450,6 @@ ul{
 .main-btn:hover{
     background-position: right center;
 }
-
-
 .anim-btn {
     border: 1px solid #FFFFFF;
     border-radius: 0.5em;
@@ -1189,7 +1197,7 @@ select::placeholder { color: #ffffff; }
         Testimonials sec
 ====================================== */
 .testimonial{
-    background-image: url("../img/test-banner.jpg");
+    background-image: url("/img/2.jpg");
     min-height: 200px;
     background-size: cover;
 }
@@ -2608,7 +2616,7 @@ ul.minicart .cart-img img {
         left: auto;
         right: auto;
         padding-top: 80px;
-        background-color: #191919;
+        background-color: #1f1f1f;
     }
     .slider-form .contact-form {
         background-color: transparent;
