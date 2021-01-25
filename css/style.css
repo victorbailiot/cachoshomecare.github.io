@@ -9,6 +9,18 @@
     .slider-form{
         padding-top: 0px !important;
     }
+    .slider-form-obr{
+        position: absolute;
+        z-index: 11;
+        top: 81%;
+        transform: translateY(50%);
+        left: 0;
+        right: 0;
+    }
+}
+
+.fonte{
+    font-size: 55px;
 }
 .main-btn-reg{
     border: solid 1px #fc2547;
@@ -19,13 +31,35 @@
     margin-top: 3px;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    /*letter-spacing: 0.1em;*/
     text-align: center;
     overflow: hidden;
     transition: .8s ease;
     text-decoration: none;
     background-image:linear-gradient(to right,#fc2547 0%, #ff5a00 50%, #fc2547 100%);
     background-size: 200% auto;
+}
+.main-btn-obr{
+    border: solid 1px #fc2547;
+    color: #FFFFFF !important;
+    font-weight: 700;
+    padding: 10px 35px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+    transition: .8s ease;
+    text-decoration: none;
+    background-image:linear-gradient(to right,#fc2547 0%, #ff5a00 50%, #fc2547 100%);
+    background-size: 200% auto;
+}
+.slider-form-obr{
+    position: absolute;
+    z-index: 11;
+    top: 78%;
+    transform: translateY(50%);
+    left: 0;
+    right: 0;
 }
 
 
@@ -1042,6 +1076,7 @@ header .user-links li a .badge{
     left: 0;
     right: 0;
 }
+
 .slider-form .contact-form{
     background-color: #2d2d2d;
     padding: 10px;
