@@ -18,7 +18,21 @@
         right: 0;
     }
 }
-
+div.galeria {
+    padding-top: 3rem;
+    margin: 5px;
+    float: left;
+    width: 350px;
+}
+div.galeria img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
 .fonte{
     font-size: 55px;
 }
@@ -1208,7 +1222,7 @@ select::placeholder { color: #ffffff; }
 }
 .portfolio-area .portfolio-item .portfolio-inner-content .item-detail-area .item-name{
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     margin-top: 3px;
     transition: .5s ease;
